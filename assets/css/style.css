@@ -1,0 +1,531 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../img/background-pattern.jpg');
+    background-repeat: repeat;
+}
+
+header {
+    height: 60px;
+    background-color: rgb(250, 30, 50);
+}
+
+.nav-menu {
+    padding-top: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    font-size: 2.5em;
+    font-family: "Bebas Neue", sans-serif;
+    text-shadow: 0 0 15px #ffffff, 0 0 25px rgb(255, 0, 0);
+    color: rgba(0, 0, 0, 0.9);
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.nav-menu a:hover {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.social-button img:hover {
+    background-color: #ffffff;
+    border-radius: 11px;
+}
+
+main {
+    width: 100%;
+    flex: 1;
+    background-image: url('../img/main-background-image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.main-text {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 7rem;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    text-shadow: 0 0 15px rgb(255, 0, 0), 0 0 25px rgb(0, 0, 0);
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.title-section {
+    font-family: "Crimson Text", serif;
+    font-size: 5rem;
+    padding-top: 2%;
+    margin-bottom: 5%;
+}
+
+section {
+    flex: 1;
+    margin: 5%;
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.9);
+    min-height: 100vh;
+}
+
+.cocktail {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.image-cocktail {
+    flex: 1;
+    min-height: 200px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 5%;
+    max-width: 50%;
+}
+
+.pixel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.pixel img {
+    flex-shrink: 0;
+    border-radius: 15px;
+    max-height: 500px;
+}
+
+.about-cocktail {
+    padding: 10%;
+}
+
+.info-cocktail {
+    flex: 1;
+    height: auto;
+}
+
+details {
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+
+section,
+.cocktail,
+.image-cocktail,
+.info-cocktail,
+.contact-form {
+    border-radius: 20px;
+}
+
+footer {
+    margin-top: auto;
+    height: 60px;
+    background-color: rgb(250, 30, 50);
+}
+
+.social-button {
+    position: absolute;
+    right: 0;
+    margin-right: 10%;
+}
+
+.social-button img {
+    margin-top: 10px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.social-button a {
+    text-decoration: none;
+}
+
+summary {
+    list-style: none;
+}
+
+.carousel {
+    overflow: hidden;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.sliders {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.quote {
+    flex: 0 0 100%;
+}
+
+.sliders {
+    animation: slidein 40s infinite ease-in-out;
+}
+
+@keyframes slidein {
+    0% {
+        transform: translateX(100%);
+    }
+
+    5% {
+        transform: translateX(0%);
+    }
+
+    18% {
+        transform: translateX(0%);
+    }
+
+    23% {
+        transform: translateX(-100%);
+    }
+
+    36% {
+        transform: translateX(-100%);
+    }
+
+    41% {
+        transform: translateX(-200%);
+    }
+
+    54% {
+        transform: translateX(-200%);
+    }
+
+    59% {
+        transform: translateX(-300%);
+    }
+
+    72% {
+        transform: translateX(-300%);
+    }
+
+    77% {
+        transform: translateX(-400%);
+    }
+
+    90% {
+        transform: translateX(-400%);
+    }
+
+    95% {
+        transform: translateX(-500%);
+    }
+
+    100% {
+        transform: translateX(-500%);
+    }
+}
+
+.text-quote {
+    color: rgb(50, 50, 50);
+    margin-top: 2%;
+    font-size: 4rem;
+    text-align: center;
+    font-family: "Italianno", cursive;
+}
+
+.author-quote {
+    color: rgb(100, 100, 100);
+    font-size: 3rem;
+    text-align: right;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    font-family: "Italianno", cursive;
+}
+
+p {
+    font-size: 2rem;
+    font-style: italic;
+    font-family: "Crimson Text", serif;
+}
+
+h2 {
+    font-family: "Crimson Text", serif;
+    font-size: 3rem;
+}
+
+.white {
+    color: rgb(255, 255, 255);
+}
+
+details {
+    color: rgb(75, 75, 75);
+    font-size: 1.5rem;
+    font-family: "Dancing Script", cursive;
+}
+
+details[open] summary~* {
+    animation: sweep 2s ease-out;
+}
+
+@keyframes sweep {
+    0% {
+        opacity: 0;
+        margin-left: 100px
+    }
+
+    100% {
+        opacity: 1;
+        margin-left: 0
+    }
+}
+
+
+/* Error page*/
+.error-section,
+.error-pict img,
+.page404-description {
+    border-radius: 20px;
+}
+
+.error-section {
+    display: flex;
+    flex: 1;
+    width: 100%;
+}
+
+.page404-description {
+    width: 50%;
+    margin: 5%;
+}
+
+.page404-title {
+    font-size: 12rem;
+    font-family: "Crimson Text", serif;
+}
+
+.page404-text {
+    font-size: 5rem;
+    font-family: "Crimson Text", serif;
+}
+
+.page404-text p {
+    font-size: 3rem;
+}
+
+.error-pict {
+    width: 50%;
+    margin: 5%;
+}
+
+/* Contact Page*/
+.contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+table label {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3rem;
+    margin-right: 1%; 
+}
+
+table input {
+    font-family: "Bebas Neue", sans-serif;
+    height: 3rem;
+    font-size: 2rem;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+table input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+    background-color: rgb(250, 30, 50, 0.2);
+}
+
+table input[type="text"]:valid,
+input[type="email"]:valid,
+input[type="tel"]:valid {
+    background-color: rgba(30, 250, 50, 0.2);
+}
+
+table textarea {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.5rem;
+}
+
+table textarea:focus {
+    background-color: rgb(250, 30, 50, 0.2);
+}
+
+table textarea:valid {
+    background-color: rgba(30, 250, 50, 0.2);
+}
+
+table input[type="reset"] {
+    margin: 10px;
+    width: 200px;
+    background-color: rgb(250, 30, 50, 0.2);
+    border-radius: 15px;
+}
+
+table input[type="submit"] {
+    background-color: rgba(30, 250, 50, 0.2);
+    margin: 10px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+/* About page*/
+.about-text{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.about-text h2 {
+    font-size: 3rem;
+    margin-bottom: 5%;
+}
+.about-text p {
+    font-size: 3rem;
+    margin-bottom: 2%;
+}
+.about-text p::first-letter {
+    font-weight: 700;
+    font-size: 4rem;
+} 
+.about-text a {
+    color: rgb(250, 30, 50);
+}
+
+
+
+@media only screen and (max-width: 766px) {
+    .cocktail {
+        flex-direction: column;
+    }
+
+    .nav-menu {
+        font-size: 12px;
+        padding-top: 8px;
+    }
+    .title-section{
+        font-size: 3rem;
+    }
+    .social-button {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .social-button img {
+        width: 45px;
+        margin-right: 15px;
+    }
+
+    .carousel {
+        display: none;
+    }
+
+    .image-cocktail {
+        max-width: 100%;
+    }
+
+    .main-text {
+        font-size: 5.5rem;
+        margin-bottom: 10%;
+    }
+
+    .error-pict {
+        display: none;
+    }
+
+    .page404-description {
+        width: 100%;
+    }
+
+    .page404-title {
+        font-size: 7rem;
+    }
+
+    .page404-text {
+        font-size: 3rem;
+    }
+
+    .page404-text p {
+        font-size: 2rem;
+    }
+
+    table {
+        display: flex;
+    }
+
+    table label {
+        font-size: 2rem;
+        text-align: center;
+        margin-right: -2%;
+        margin-left: 2%;
+        margin-bottom: 0;
+    }
+
+    table input {
+        margin-left: 2%;
+        width: 90%;
+        height: 2rem;
+        font-size: 1.5rem;
+        border: 2px solid rgb(0, 0, 0);
+        margin-bottom: 3%;
+    }
+
+    table textarea {
+        font-size: 1rem;
+        margin-left: 2%;
+    }
+
+    table tr {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .sub-btn {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .sub-btn td input {
+        width: 100%;
+        font-size: 1rem; 
+        min-width: 100px;
+    }
+    
+.about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 5%;
+}
+.about-text p {
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+}
+.about-text p::first-letter {
+    font-weight: 700;
+    font-size: 2rem;
+} 
+}

@@ -1,3 +1,2 @@
 # project_1
-Project 1 CodeInstitute
-test
+Project 1 CodeInstitute 
