@@ -269,7 +269,9 @@ h2 {
     font-family: "Crimson Text", serif;
     font-size: 3rem;
 }
-
+summary:hover {
+    color: rgb(250, 30, 50); 
+}
 .white {
     color: rgb(255, 255, 255);
 }
