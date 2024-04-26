@@ -163,10 +163,7 @@ footer {
 .social-button a {
     text-decoration: none;
 }
-
-summary {
-    list-style: none;
-}
+ 
 
 .carousel {
     overflow: hidden;
@@ -269,9 +266,11 @@ h2 {
     font-family: "Crimson Text", serif;
     font-size: 3rem;
 }
-summary:hover {
-    color: rgb(250, 30, 50); 
-}
+summary {
+    font-size: 2rem;
+    color: rgb(250, 30, 50);    
+    list-style-image: url(../img/favicon_io/favicon-32x32.png); 
+} 
 .white {
     color: rgb(255, 255, 255);
 }
