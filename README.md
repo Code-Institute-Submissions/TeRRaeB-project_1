@@ -3,7 +3,7 @@
 This website project was created to show people cocktail culture and tell popular cocktail recipes.
 
 
-![Coctails Website shown on a range of devices](assets/images/bullybookclubwebsite.png)
+![Coctails Website shown on a range of devices](./docs/screet_all_site.png)
 
 [View Coctails site on Github Pages](https://terraeb.github.io/project_1/)
 
@@ -22,7 +22,7 @@ This website project was created to show people cocktail culture and tell popula
   * [Colour Scheme](#Colour-Scheme)
   * [Typography](#Typography)
   * [Imagery](#Imagery)
-  * [Wireframes](#Wireframes)
+  * [Wireframe](#Wireframe)
   * [Features](#Features)
   * [Accessibility](#Accessibility)
 
@@ -76,24 +76,8 @@ Whether it's a shot at a party or a long drink for dinner at a restaurant.
 #### Client Goals
 
 * To be able to view the site on a range of device sizes.
-* To make it easy for potential members to find out what the book club is and how to take part.
-* To make it clear for members to see what we are currently reading and what is coming up next.
-* To allow people to be able to contact the Book Club to ask further questions or with book recommendations etc.
-
-#### First Time Visitor Goals
-
-* I want to find out what is Bully Book Club and how I can take part.
-* I want to be able to navigate the site easily to find information.
-* I want to be able to find their Instagram profile.
-
-#### Returning Visitor Goals
-
-* I want to find up to date information on what the book club is reading.
-* I want to be able to easily contact the book club with questions I might have.
-
-#### Frequent Visitor Goals
-
-* I want to be able to recommend a book for the book club to read.
+* To easily learn more about popular cocktails.
+* So that you can easily repeat the cocktail thanks to the recipe. 
 
 - - -
 
@@ -101,33 +85,34 @@ Whether it's a shot at a party or a long drink for dinner at a restaurant.
 
 ### Colour Scheme
 
-![Bully Book Club Website Colour Palette](docs/colourpalette.png)
+![ Coctails Website Colour Palette](./docs/mini-collage.jpg)
 
-The website uses a palette of pastel colours that are often used in the Bully Book Club logo images. The colour palette was created using the [Coolors](https://coolors.co/) website.
+The colour palette was created using the [Coolors](https://coolors.co/) website.
 
 ### Typography
 
 Google Fonts was used for the following fonts:
 
-* Merriweather is used for headings on the site. It is a serif font.
+* Bebas Neue is used for headings on the site. It is a sans-serif font.
 
-* Raleway is used for the body text on the site. It is a sans-serif font.  
+* Crimson Text is used for the body text on the site. It is a serif font.  
 
-* Indie Flower is used on the thank you page for Harrison Fords message. It is a cursive font.
+* Italianno is used on the quote section. It is a cursive font.
 
 ### Imagery
 
-The member images were used with the permission of their owners. All book covers were taken from the publishers websites. I have credited these in the [credits](#Credits) section.
+The images were created using artificial intelligence namely: Main picturce "Adobe firefly ([firefly.adobe.com](https://firefly.adobe.com/))", cocktails "Bing Image AI ([www.bing.com/images/create](https://www.bing.com/images/create))".
 
-### Wireframes
+### Wireframe
 
-Wireframes were created for mobile, tablet and desktop.
-
-[Home Page Wireframe](docs/wireframes/indexwireframe.png)
-
-[Books Wireframe](docs/wireframes/bookswireframe.png)
-
-[Contact Us Wireframe](docs/wireframes/contactuswireframe.png)
+<details>
+<summary>Wireframe main page</summary>
+ 
+[![Wireframe][1]][1]
+ 
+[1]: ./docs/wireframe.png
+ 
+</details>
 
 ### Features
 
