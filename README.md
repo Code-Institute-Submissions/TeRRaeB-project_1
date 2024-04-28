@@ -230,8 +230,7 @@ During my meeting with the mentor, the following questions were raised:
 <summary>Testing report</summary>
  [1]
  
-[1]: ./docs/wave.webaim.png
- No critical errors were found.
+[1]: ./docs/wave.webaim.png 
 </details> 
 
 ### W3C Validator
