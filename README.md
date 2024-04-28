@@ -228,9 +228,9 @@ During my meeting with the mentor, the following questions were raised:
   * Site tested on the service (https://wave.webaim.org/)
   <details>
 <summary>Testing report</summary>
- [1]
+[![Testing report][2]][2]
  
-[1]: ./docs/wave.webaim.png 
+[2]: ./docs/wave.webaim.png 
 </details> 
 
 ### W3C Validator
@@ -241,7 +241,7 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 <details>
 <summary>Index Page HTML</summary>
  
-[[Index Page HTML][3]][3]
+[![Index Page HTML][3]][3]
  
 [3]: ./docs/testing/w3c_index_page.png
 </details> 
