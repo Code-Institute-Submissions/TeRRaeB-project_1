@@ -229,9 +229,9 @@ During my meeting with the mentor, the following questions were raised:
   <details>
 <summary>Testing report</summary>
  
-[2]
+[[Wave Webaim report][2]][2]
  
-[2]: ./docs/wave.webaim.png
+[2]:: ./docs/wave.webaim.png
  No critical errors were found.
 </details> 
 
@@ -243,7 +243,7 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 <details>
 <summary>Index Page HTML</summary>
  
-[3]
+[[Index Page HTML][3]][3]
  
 [3]: ./docs/testing/w3c_index_page.png
 </details> 
