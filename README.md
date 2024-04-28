@@ -228,8 +228,9 @@ During my meeting with the mentor, the following questions were raised:
   * Site tested on the service (https://wave.webaim.org/)
   <details>
 <summary>Testing report</summary>
+ [1]
  
-  ./docs/wave.webaim.png
+[1]: ./docs/wave.webaim.png
  No critical errors were found.
 </details> 
 
