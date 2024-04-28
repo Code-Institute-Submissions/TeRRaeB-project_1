@@ -269,12 +269,13 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
  
 [6]: ./docs/testing/w3c_404_page.png
 </details> 
+
  <details>
 <summary>style.css CSS</summary>
  
 [![style.css CSS][7]][7]
  
-[6]: ./docs/testing/w3c_style_css.png
+[7]: ./docs/testing/w3c_style_css.png
 </details>  
 
 ### Solved Bugs
