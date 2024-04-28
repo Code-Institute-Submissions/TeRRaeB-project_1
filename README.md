@@ -231,7 +231,7 @@ During my meeting with the mentor, the following questions were raised:
  
 [[Wave Webaim report][2]][2]
  
-[2]:: ./docs/wave.webaim.png
+[2]: ./docs/wave.webaim.png
  No critical errors were found.
 </details> 
 
