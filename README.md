@@ -147,25 +147,13 @@ The website consists of five pages, three of which are accessible from the navig
     * Text area for entering a recipe, limited to a minimum of 25 characters.
 
 
-* Thank You Page.
-  * A message thanks the user for submitting the form and lets them know someone will be in touch soon.
-  * Image and message from Harrison Ford, Dictator of the Bully Bookclub.
-
-* Future Implementations.
-  * Use javascript to perform return to top function on books page.
-  * Use javascript and listeners to require at least one checkbox to be checked before submitting the form on contact us page.
-  * A meet the members page - This would have a photo of the member together with a small bio. A link to their instagram and/or goodreads page.
-  * Competitions/giveaways page - This page would give further information/rules on the competitions and giveaways the book club hosts.
-
 ### Accessibility
 
 I have been mindful during coding to ensure that the website is as accessible friendly as possible. I have achieved this by:
 
 * Using semantic HTML.
-* Using descriptive alt attributes on images on the site.
-* Providing information for screen readers where there are icons used and no text - such as the review ratings for books & footer icons.
-* Ensuring that there is a sufficient colour contrast throughout the site.
-* Ensuring menus are accessible by marking the current page as current for screen readers.
+* Using descriptive alt attributes on images on the site. 
+* Ensuring that there is a sufficient colour contrast throughout the site. 
 
 - - -
 
@@ -177,13 +165,9 @@ HTML and CSS were used to create this website.
 
 ### Frameworks, Libraries & Programs Used
 
-Balsamiq - Used to create wireframes.
-
 Git - For version control.
 
 Github - To save and store the files for the website.
-
-Bootstrap Version 4.6 - The framework for the website. Code for the navigation bar, carousel, cards and form were used and modified. Additional CSS styling was also implemented in style.css.
 
 Google Fonts - To import the fonts used on the website.
 
@@ -193,13 +177,9 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 
 [Tiny PNG](https://tinypng.com/) To compress images.
 
-[Birme](https://www.birme.net/) To resize images and change to webp format.
-
 [Favicon.io](https://favicon.io/) To create favicon.
 
 [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
-
-[Shields.io](https://shields.io/) To add badges to the README
 
 - - -
 
@@ -210,7 +190,7 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 Github Pages was used to deploy the live website. The instructions to achieve this are below:
 
 1. Log in (or sign up) to Github.
-2. Find the repository for this project, Bully-Book-Club.
+2. Find the repository for this project, project_1.
 3. Click on the Settings link.
 4. Click on the Pages link in the left hand side navigation bar.
 5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
@@ -220,18 +200,18 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 
 #### How to Fork
 
-To fork the Bully-Book-Club repository:
+To fork the project_1 repository:
 
 1. Log in (or sign up) to Github.
-2. Go to the repository for this project, kera-cudmore/Bully-Book-Club.
+2. Go to the repository for this project, TeRRaeB/project_1.
 3. Click the Fork button in the top right corner.
 
 #### How to Clone
 
-To clone the Bully-Book-Club repository:
+To clone the project_1 repository:
 
 1. Log in (or sign up) to GitHub.
-2. Go to the repository for this project, kera-cudmore/Bully-Book-Club.
+2. Go to the repository for this project, TeRRaeB/project_1.
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
@@ -242,23 +222,32 @@ To clone the Bully-Book-Club repository:
 
 Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
 
-The following issues were raised during my mid project meeting with my mentor:
-
-* The Join Us section on the home page was not in alignment with the rest of the page. Padding has now been added to bring it in alignment with the rest of the pages padding.
-* There was an issue on smaller devices where the book columns were not displaying properly. This issue is documented under issue 2 in solved bugs.
-* The introduction paragraph on the books page was not aligned in style with the rest of the page. The text has now been centered.
-* The form could be submitted with only a name filled in. ~ A required attribute has been added to the email input and textarea.
-
-The Following items were brought up when I submitted my site to peer code review on slack.
-
-* Andrew Dempsey suggested to change the layout of the about us section on the index page to make it two rows instead of one, as this would improve the flow of the page on larger screens. I have moved the second two items into a second row and have added a margin bottom in the css to give the items a bit more breathing space.
-* Andrew also suggested it would look better if the contact us page inputs had a bit of room each side and were centred on the page, as they were rather long on larger screens. I have adjusted the size of the input fields and centred these on the page for a better viewing experience.
+During my meeting with the mentor, the following questions were raised:
+  * the address of the "contact" form was replaced with code institute.
+  * The “recipe” button is highlighted in red and an icon has also been added.
+  * Site tested on the service (https://wave.webaim.org/)
+  <details>
+<summary>Testing report</summary>
+ 
+[1]
+ 
+[1]: ./docs/wave.webaim.png
+ No critical errors were found.
+</details> 
 
 ### W3C Validator
 
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
 
-* [Index Page HTML](docs/testing/w3c/w3cindex.png)
+* 
+<details>
+<summary>Index Page HTML</summary>
+ 
+[1]
+ 
+[1]: ./docs/testing/w3c_index_page.png
+</details> 
+
 * [Books Page HTML](docs/testing/w3c/w3cbooks.png)
 * [Contact Us Page HTML](docs/testing/w3c/w3ccontact.png)
 * [Thank You Page HTML](docs/testing/w3c/w3cthankyou.png)
