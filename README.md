@@ -229,7 +229,7 @@ During my meeting with the mentor, the following questions were raised:
   <details>
 <summary>Testing report</summary>
  
-  (./docs/wave.webaim.png)
+  ./docs/wave.webaim.png
  No critical errors were found.
 </details> 
 
