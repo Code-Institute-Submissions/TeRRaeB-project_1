@@ -226,8 +226,9 @@ During my meeting with the mentor, the following questions were raised:
   * the address of the "contact" form was replaced with code institute.
   * The “recipe” button is highlighted in red and an icon has also been added.
   * Site tested on the service (https://wave.webaim.org/)
-  <details>
+<details>
 <summary>Testing report</summary>
+
 [![Testing report][2]][2]
  
 [2]: ./docs/wave.webaim.png 
