@@ -116,35 +116,36 @@ The images were created using artificial intelligence namely: Main picturce "Ado
 
 ### Features
 
-The website is comprised of four pages, three of which are accessible from the navigation menu (home page, books page & contact us page). The fourth page is a thank you page which is shown once a user submits the form on the contact us page.
+The website consists of five pages, three of which are accessible from the navigation menu (home page, about page and contact page). The fourth page is the page that receives the recipe from the user (for now it is replaced by a link to the [Code Institute](https://formdump.codeinstitute.net), which is displayed after the user submits the form to contact us. The fifth page is the page " 404 error", you can get to it from the social network buttons in the footer.
 
-* All Pages on the website have:
 
-  * A responsive navigation bar at the top which allows the user to navigate through the site.  To the left of the navigation bar is an image of book clubs logo together with the text Bully Book Club. To the right of the navigation bar are the links to the websites pages (home, books, and contact us). To allow a good user experience of the site, the Bully Book Club text is hidden with a media query on mobile devices to prevent the navigation bar looking cluttered. When viewing with mobile devices the navigation links change to a burger toggler. This was implemented to give the site a clean look and to promote a good user experience, as users are used to seeing the burger icon when on mobile devices to navigate a site.
+* All pages of the site contain:
 
-  * A footer which contains social media icon links to instagram and goodreads. There is also an envelope icon which takes the user to the contact us page. Icons were used to keep the footer clean and because they are universally recognisable.
+ * A responsive navigation bar at the top that allows the user to navigate around the site. In the center of the navigation bar there are links to website pages (home page, about and contacts).
+
+* A footer containing social media icons, links to Facebook, Instagram, Linkedin, Twitter, Youtube.
 
 * Home Page.
+  * Main image with title.
+    "The most popular cocktails in the world".
   * Carousel Section.
-  The carousel shows photographs of the members of Bully Book Club.
-  * About Us Section.
-  This section is broken down into four subsections and gives users some information on the book club. On large screens the subsections are laid out in a row, however on mobile devices the subsections are stacked vertically.
-  * Join Us Section.
-  This section gives the user more information on how they can join in with the book club.
+  The carousel contains quotes from famous people about cocktails and alcohol.
+  * Cocktails.
+  This is the main section in the home page. It contains photographs, titles, stories and cocktail recipes.
 
-* Books Page. The navigation link for books is a drop down menu with the following sections:
-  * Currently Reading.
-  This takes the user to the card of the book the book club is currently reading.
-  * Reading Next.
-  This takes the user to the card of the book the book club will be reading next.
-  * Yearly Sections.
-  This takes the user to the section of the year they have chosen. There are currently 3 years to select from.
-  The books page implements a return to top icon which allows users to return to the navigation menu easily from any point as they scroll down the page.
+* About Page.
+  *  This page is for informational purposes for users only.
 
-* Contact Us Page.
-  * A List of reasons users may want to contact the book club.
+* Contact Page.
   * Form
-  The form contains fields for the users name, email address, instagram handle, checkboxes giving a reason for contact and a text area for the user to add further information. The user submits the form using the submit button. Users must fill in the name, email and text area fields to be able to submit the form. If they don't a tooltip will guide them to fill in any information they have missed.
+    The form contains fields for the user's first and last name, email address, phone number and a text area in which the user can enter his recipe. The user submits the form using the submit button and also has a "Clear" button to clear the filled data. Users must complete the First and Last Name, Email, Phone Number, and Text area fields to be able to submit the form. If they don't, a tooltip will help them fill in any information they missed.
+  * There is also a visual hint when the user has entered the correct data, the field changes from red to green.
+  * Input validation: 
+    * First and last name (from 2 to 20 characters).
+    * Email (using type="email").
+    * Phone number (using type="tel". Pattern="[0-9]{10}") is also added to validate user input and the maximum number of characters is limited to 10.
+    * Text area for entering a recipe, limited to a minimum of 25 characters.
+
 
 * Thank You Page.
   * A message thanks the user for submitting the form and lets them know someone will be in touch soon.
