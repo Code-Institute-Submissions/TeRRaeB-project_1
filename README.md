@@ -238,7 +238,7 @@ During my meeting with the mentor, the following questions were raised:
 
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
 
-* 
+  
 <details>
 <summary>Index Page HTML</summary>
  
@@ -247,11 +247,35 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 [3]: ./docs/testing/w3c_index_page.png
 </details> 
 
-* [Books Page HTML](docs/testing/w3c/w3cbooks.png)
-* [Contact Us Page HTML](docs/testing/w3c/w3ccontact.png)
-* [Thank You Page HTML](docs/testing/w3c/w3cthankyou.png)
-* [404 Page HTML](docs/testing/w3c/w3c404.png)
-* [style.css CSS](docs/testing/w3c/w3ccss.png)
+<details>
+<summary>About Page HTML</summary>
+ 
+[![About Page HTML][4]][4]
+ 
+[4]: ./docs/testing/w3c_about_page.png
+</details> 
+
+<details>
+<summary>Contact Page HTML</summary>
+ 
+[![Contact Page HTML][5]][5]
+ 
+[5]: ./docs/testing/w3c_contact_page.png
+</details> 
+ <details>
+<summary>404 Page HTML</summary>
+ 
+[![404 Page HTML][6]][6]
+ 
+[6]: ./docs/testing/w3c_404_page.png
+</details> 
+ <details>
+<summary>style.css CSS</summary>
+ 
+[![style.css CSS][7]][7]
+ 
+[6]: ./docs/testing/w3c_style_css.png
+</details>  
 
 ### Solved Bugs
 
