@@ -1,11 +1,11 @@
-# Coctails Website
+# Cocktails Website
 
 This website project was created to show people cocktail culture and tell popular cocktail recipes.
 
 
-![Coctails Website shown on a range of devices](./docs/screet_all_site.png)
+![Cocktails Website shown on a range of devices](./docs/screet_all_site.png)
 
-[View Coctails site on Github Pages](https://terraeb.github.io/project_1/)
+[View Cocktails site on Github Pages](https://terraeb.github.io/project_1/)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/TeRRaeB/project_1?color=red)
 ![GitHub contributors](https://img.shields.io/github/contributors/TeRRaeB/project_1?color=orange)
@@ -39,7 +39,8 @@ This website project was created to show people cocktail culture and tell popula
 * [Testing](#Testing)
   * [W3C Validator](#W3C-Validator)
   * [Known Bugs](#Known-Bugs)
-  * [Testing User Stories](#Testing-User-Stories) 
+  * [Future Features](#Future-Features)
+    * [Testing User Stories](#Testing-User-Stories) 
     * [Index Page](#Index-Page) 
     * [Contact Us Page](#Contact-Us-Page) 
   * [Full Testing](#Full-Testing)
@@ -79,7 +80,7 @@ Whether it's a shot at a party or a long drink for dinner at a restaurant.
 
 ### Colour Scheme
 
-![ Coctails Website Colour Palette](./docs/mini-collage.jpg)
+![ Cocktails Website Colour Palette](./docs/mini-collage.jpg)
 
 The colour palette was created using the [Coolors](https://coolors.co/) website.
 
@@ -114,10 +115,8 @@ The website consists of five pages, three of which are accessible from the navig
 
 
 * All pages of the site contain:
-
- * A responsive navigation bar at the top that allows the user to navigate around the site. In the center of the navigation bar there are links to website pages (home page, about and contacts).
-
-* A footer containing social media icons, links to Facebook, Instagram, Linkedin, Twitter, Youtube.
+  * A responsive navigation bar at the top that allows the user to navigate around the site. In the center of the navigation bar there are links to website pages (home page, about and contacts).
+  * A footer containing social media icons, links to Facebook, Instagram, Linkedin, Twitter, Youtube.
 
 * Home Page.
   * Main image with title.
@@ -276,9 +275,10 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 ### Known Bugs
 
-1. I would like to add a back to top button when the user scrolls through the main menu with cocktails. This would be user friendly.
-2. The form of the “contacts” page after sending and validation of the entered data. add recipes.
+* The form of the “contacts” page after sending and validation of the entered data. add recipes.
 
+### Future Features
+* I would like to add a back to top button when the user scrolls through the main menu with cocktails. This would be user friendly.
 
 ### Full Testing
 
